@@ -1,4 +1,7 @@
+<div align="center">
+
 # ♻️ Plastic Waste Detection via Spectral Signature Analysis
+
 ### Deep Learning-Based Marine Plastic Waste Detection and Segmentation
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
@@ -8,9 +11,24 @@
 ![Google Colab](https://img.shields.io/badge/Platform-Google_Colab-F9AB00?logo=googlecolab&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-Plastic Waste Detection via Spectral Signature Analysis is a deep learning research project developed to automatically identify and segment marine plastic waste from underwater imagery. The system leverages **YOLOv8 Instance Segmentation** to perform accurate object detection and pixel-level segmentation, supporting environmental monitoring and intelligent waste management applications.
+</div>
 
-The project covers the complete deep learning workflow including dataset preparation, preprocessing, model training, evaluation, inference, and visualization using Google Colab.
+---
+
+<div align="center">
+  
+## 🚀 Quick Facts
+
+| Feature | Value |
+|---------|-------|
+| Model | YOLOv8 Instance Segmentation |
+| Framework | Ultralytics + PyTorch |
+| Language | Python |
+| Environment | Google Colab |
+| Task | Marine Plastic Waste Detection |
+| Output | Pixel-level Segmentation |
+
+</div>
 
 ---
 
@@ -96,43 +114,6 @@ Plastic-Waste-Detection/
 
 ---
 
-# 🔬 Project Pipeline
-
-## 📥 Dataset Preparation
-
-> 📖 **Description**  
-> The dataset is prepared in YOLO segmentation format containing training and validation images along with polygon annotations for marine plastic waste categories.
-
----
-
-## 🧹 Data Preprocessing
-
-> 📖 **Description**  
-> Images and annotations are validated and organized for efficient deep learning training using the Ultralytics YOLOv8 framework.
-
----
-
-## 🧠 Model Training
-
-> 📖 **Description**  
-> A YOLOv8 segmentation model is trained using GPU acceleration with configurable epochs, batch size, and image resolution to learn pixel-level representations of marine debris.
-
----
-
-## 📊 Model Evaluation
-
-> 📖 **Description**  
-> The trained model is evaluated using confusion matrices, precision-recall curves, F1-score analysis, and segmentation performance metrics.
-
----
-
-## 🖼 Image Inference
-
-> 📖 **Description**  
-> The trained model performs inference on unseen underwater images, generating segmented masks, bounding boxes, and confidence scores for detected plastic waste objects.
-
----
-
 # 📸 Experimental Results
 
 ## 📈 Training Performance
@@ -180,22 +161,6 @@ Representative prediction results generated on previously unseen underwater imag
 Visualization of inference performed across a large set of underwater images showing segmentation masks, confidence scores, and detected object categories.
 
 ![Large Scale Predictions](screenshots/large_scale_predictions.png)
-
----
-
-# 📈 Model Outputs
-
-The trained YOLOv8 segmentation model generates comprehensive evaluation artifacts including:
-
-- 📉 Training & Validation Loss Curves
-- 📈 Precision Curve
-- 📈 Recall Curve
-- 📊 mAP@50 and mAP@50-95 Metrics
-- 🎯 F1 Confidence Curve
-- 📊 Confusion Matrix
-- 🖼 Segmentation Prediction Samples
-- 🌊 Large-Scale Inference Results
-- 📋 Validation Batch Visualizations
 
 ---
 
@@ -250,30 +215,12 @@ using
 
 ## 4. Run the Project
 
-Execute the notebook cells sequentially to:
+Run all notebook cells to:
 
-- 📥 Download and prepare the dataset
-- 🧹 Preprocess images and annotations
-- 🧠 Train the YOLOv8 segmentation model
-- 📊 Evaluate model performance
-- 🎯 Perform inference on unseen underwater images
-- 💾 Save the trained model weights
-
----
-
-# 📊 Performance Evaluation
-
-The trained model was evaluated using standard object detection and instance segmentation metrics, including:
-
-- 📈 Precision
-- 📈 Recall
-- 🎯 F1-Score
-- 📊 mAP@50
-- 📊 mAP@50-95
-- 📉 Training & Validation Loss
-- 📋 Confusion Matrix
-- 🖼 Segmentation Prediction Samples
-- 🌊 Large-Scale Inference Visualization
+- 📥 Download the dataset
+- 🧠 Train the YOLOv8 model
+- 📊 Evaluate performance
+- 🎯 Generate segmentation predictions
 
 ---
 
@@ -308,8 +255,14 @@ Computer Science & Engineering Graduate
 
 # ⭐ Project Status
 
-> ✅ **Completed** — Research implementation demonstrating deep learning-based marine plastic waste detection using YOLOv8 instance segmentation with end-to-end training, evaluation, and inference.
+> ✅ **Completed** 
 
 ---
 
-> **Plastic Waste Detection via Spectral Signature Analysis — Advancing Intelligent Marine Waste Monitoring through Deep Learning.**
+<div align="center">
+
+**♻️ Plastic Waste Detection via Spectral Signature Analysis**
+
+*Advancing Intelligent Marine Waste Monitoring through Deep Learning.*
+
+</div>
